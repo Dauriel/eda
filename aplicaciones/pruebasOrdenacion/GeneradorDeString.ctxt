@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GeneradorDeString
+comment0.text=\r\n\ GeneradorDeString\ genera\ String\ con\ un\ numero\ dado\ \ \r\n\ de\ caracteres\ iniciales\ iguales.\r\n\ \r\n\ @author\ (EDA)\ \r\n\ @version\ (Curso\ 2015-2016)\r\n
+comment1.params=n
+comment1.target=GeneradorDeString(int)
+comment1.text=\r\n\ Crea\ un\ GeneradorDeString\ cuyos\ n\ primeros\ caracteres\ \r\n\ son\ iguales.\r\n
+comment2.params=
+comment2.target=java.lang.String\ generar()
+comment2.text=\r\n\ Devuelve\ un\ String\ con\ sus\ n\ primeros\ caracteres\r\n\ identicos,\ aunque\ elegidos\ al\ azar.\r\n
+numComments=3

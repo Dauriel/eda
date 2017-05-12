@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Recomendacion
+comment0.text=\r\n\ Clase\ que\ gestione\ la\ informaci\u00F3n\ procedente\ del\ an\u00E1lisis\ de\ un\r\n\ n\u00FAmero\ cualquiera\ de\ p\u00E1ginas\ Web\ con\ el\ fin\ de\ servir\ como\r\n\ sistema\ de\ recomendaci\u00F3n.\r\n\ Permite\ la\ siguiente\ funcionalidad\:\r\n\ 1.-\ Analizar\ una\ lista\ de\ direcciones\ url\ que\ se\ proporcionan\ en\ un\ fichero\ de\ texto\r\n\ 2.-\ Analizar\ una\ direcci\u00F3n\ url\r\n\ 3.-\ Recomendar\ la\ p\u00E1gina\ que\ contenga\ m\u00E1s\ enlaces\ externos,\ y,\r\n\ \ \ \ \ a\ igualdad\ de\ enlaces,\ menor\ n\u00FAmero\ de\ l\u00EDneas\r\n\ 4.-\ Recomendar\ las\ k\ p\u00E1ginas\ que\ contengan\ m\u00E1s\ enlaces\ externos,\ y,\r\n\ \ \ \ \ a\ igualdad\ de\ enlaces,\ menor\ n\u00FAmero\ de\ l\u00EDneas.\r\n\ \r\n\ @author\ (EDA)\ \r\n\ @version\ (Curso\ 2016-2017)\r\n
+comment1.params=
+comment1.target=Recomendacion()
+comment1.text=\r\n\ Construye\ el\ sistema\ de\ recomendaci\u00F3n\ sin\ ninguna\ p\u00E1gina\ analizada\ hasta\ el\ momento\r\n
+comment2.params=nomFile
+comment2.target=Recomendacion(java.lang.String)
+comment2.text=\r\n\ Construye\ el\ sistema\ de\ recomendaci\u00F3n\ a\ partir\ del\ an\u00E1lisis\ de\ las\ \r\n\ p\u00E1ginas\ cuyas\ url\ se\ encuentran\ en\ el\ fichero\ de\ texto\ nomFile\r\n\ @param\ nomFile,\ nombre\ del\ fichero\ que\ contiene\ las\ urls\r\n\ Si\ se\ produce\ alg\u00FAn\ problema\ en\ la\ lectura\ del\ fichero\ devuelve\ el\ sistema\ vacio\r\n
+comment3.params=nomPagina
+comment3.target=ReferenciasWeb\ anyadirPagina(java.lang.String)
+comment3.text=\r\n\ Analiza\ la\ p\u00E1gina\ nomPagina\ y\ la\ incorpora\ al\ sistema\ de\ recomendaci\u00F3n\r\n\ \r\n\ @param\ \ nomPagina,\ la\ p\u00E1gina\ a\ a\u00F1adir\r\n\ @return\ el\ resultado\ del\ an\u00E1lisis\ de\ la\ p\u00E1gina\ o\ null\ si\ no\ se\ ha\ podido\ analizar\ \r\n
+comment4.params=
+comment4.target=ReferenciasWeb\ maxReferencias()
+comment4.text=\r\n\ Devuelve\ la\ p\u00E1gina\ recomendada\ atendiendo\ al\ criterio\r\n\ La\ elimina\ del\ sistema\ para\ no\ volver\ a\ recomendarla.\r\n\ Precondici\u00F3n\:\ el\ sistema\ debe\ contener\ al\ menos\ una\ p\u00E1gina\ para\ recomendar\r\n\ @return\ la\ p\u00E1gina\ recomendada\r\n
+comment5.params=k
+comment5.target=ReferenciasWeb[]\ maxKReferencias(int)
+comment5.text=\r\n\ Devuelve\ un\ array\ con\ las\ k\ p\u00E1ginas\ recomendadas\ atendiendo\ al\ criterio\r\n\ Las\ elimina\ del\ sistema\ para\ no\ volver\ a\ recomendarlas.\r\n\ Si\ el\ sistema\ no\ tiene\ k\ p\u00E1ginas\ devuelve\ todas\ las\ que\ tiene.\r\n\ Precondici\u00F3n\:\ el\ sistema\ debe\ contener\ al\ menos\ una\ p\u00E1gina\ para\ recomendar\r\n\ @return\ el\ array\ de\ p\u00E1ginas\ recomendadas\ de\ tama\u00F1o\ minimo(k,\ noPags)\r\n
+numComments=6

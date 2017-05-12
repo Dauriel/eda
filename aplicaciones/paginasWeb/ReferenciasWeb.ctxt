@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=ReferenciasWeb
+comment0.text=\r\n\ Clase\ que\ representa\ el\ n\u00FAmero\ de\ referencias\ http\ que\ contiene\ una\ \r\n\ p\u00E1gina\ web.\r\n\ \r\n\ @author\ (EDA)\ \r\n\ @version\ (Curso\ 2016-2017)\r\n
+comment1.params=nomPag\ noLineas\ noHRef
+comment1.target=ReferenciasWeb(java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Construye\ un\ objeto\ ReferenciasWeb\ a\ partir\ de\ la\ direcci\u00F3n\r\n\ url\ de\ una\ p\u00E1gina,\ del\ n\u00FAmero\ de\ l\u00EDneas\ (nolineas)\ y\ del\ n\u00FAmero\ \r\n\ de\ referencias\ externas\ (nohref).\r\n\ @param\ \ nomPag\ \ \ url\ de\ la\ p\u00E1gina\r\n\ @param\ noLineas\ \ n\u00FAmero\ de\ lineas\ de\ la\ pagina\r\n\ @param\ noHRef\ \ \ \ n\u00FAmero\ de\ referencias\ externas\r\n
+comment2.params=nomPag
+comment2.target=ReferenciasWeb(java.lang.String)
+comment2.text=\r\n\ Construye\ un\ objeto\ ReferenciasWeb\ a\ partir\ de\ la\ direcci\u00F3n\r\n\ url\ de\ una\ p\u00E1gina\:\ cuenta\ el\ n\u00FAmero\ de\ l\u00EDneas\ (nolineas)\ y\ el\ n\u00FAmero\ \r\n\ de\ referencias\ externas\ (nohref).\r\n\ @param\ \ nomPag\ \ \ url\ de\ la\ p\u00E1gina\r\n\ @throws\ MalFormedURLException,\ si\ la\ URL\ no\ es\ v\u00E1lida\r\n\ @throws\ IOException,\ si\ no\ se\ puede\ conectar\ o\ acceder\ a\ la\ url\r\n
+comment3.params=
+comment3.target=java.lang.String\ getUrl()
+comment3.text=\r\n\ Devuelve\ la\ direcci\u00F3n\ url\ de\ la\ p\u00E1gina\r\n\ @return\ String,\ la\ url\r\n
+comment4.params=
+comment4.target=int\ getNohref()
+comment4.text=\r\n\ Devuelve\ el\ n\u00FAmero\ de\ referencias\ externas\ de\ la\ p\u00E1gina\r\n\ @return\ int,\ el\ n\u00FAmero\ de\ referencias\ externas\r\n
+comment5.params=
+comment5.target=int\ getNolineas()
+comment5.text=\r\n\ Devuelve\ el\ n\u00FAmero\ de\ l\u00EDneas\ de\ la\ p\u00E1gina\r\n\ @return\ int,\ el\ n\u00FAmero\ de\ l\u00EDneas\r\n
+comment6.params=o
+comment6.target=boolean\ equals(java.lang.Object)
+comment6.text=\r\n\ Comprueba\ si\ una\ ReferenciaWeb\ es\ igual\ a\ otra\:\r\n\ son\ iguales\ si\ tienen\ la\ misma\ url\ \r\n\ @param\ o,\ la\ ReferenciaWeb\ a\ comparar\r\n\ @return\ true,\ si\ tienen\ la\ misma\ url\ y\ false\ en\ caso\ contrario\r\n
+comment7.params=ref
+comment7.target=int\ compareTo(ReferenciasWeb)
+comment7.text=\r\n\ Compara\ dos\ ReferenciaWeb\ con\ el\ fin\ de\ su\ recomendaci\u00F3n\:\ this\ y\ ref\r\n\ Criterio\:\ es\ m\u00E1s\ recomendable\ la\ p\u00E1gina\ que\ contenga\ m\u00E1s\ referencias\ y,\ \ \r\n\ a\ igualdad\ de\ referencias,\ la\ que\ contenga\ menos\ l\u00EDneas.\r\n\ \r\n\ @param\ ref,\ la\ ReferenciaWeb\ a\ comparar\r\n\ @return\ \ negativo\ si\ this\ es\ m\u00E1s\ recomendable\ que\ ref,\ \r\n\ \ \ \ \ \ \ \ \ \ positivo\ si\ ref\ es\ m\u00E1s\ recomendable\ que\ this\r\n\ \ \ \ \ \ \ \ \ \ 0\ si\ son\ igualmente\ recomendables\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Devuelve\ la\ informaci\u00F3n\ textual\ asociada\ a\ una\ ReferenciasWeb\r\n\ @return\ \ String\ con\ la\ direcci\u00F3n\ url,\ el\ n\u00FAmero\ de\ l\u00EDneas\ y\ el\ n\u00FAmero\ de\ referencias.\r\n\ \ \ \ \ \ \ \ \ \ Ejemplo\:\ "url\:\ \ \ https\://www.upv.es\ -\ Total\ lineas\ \=\ \ \ 571\ -\ Total\ hrefs\ \=\ \ \ \ 21"\r\n
+numComments=9
